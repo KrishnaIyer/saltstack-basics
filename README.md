@@ -8,7 +8,15 @@ For this demo, We'll be using [Vagrant](https://www.vagrantup.com) to setup thre
 
 These would communicate over localhost.
 
+> Use the script provided to setup the virtual boxes. Once done, directly start the machines from the vagrant global list.
+
 
 ## Troubleshooting
 
-Minion already exists: https://stackoverflow.com/a/34581195
+* Minion already exists: 
+    * https://stackoverflow.com/a/34581195
+* Deleting existing machines
+    * `$vagrant global-status`
+    * `vagrant destroy <minion id>`
+* Remove inaccessible machines
+    * `$vagrant global-status --prune`
