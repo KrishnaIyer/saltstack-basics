@@ -1,6 +1,6 @@
-'groupadd docker':
+{# 'groupadd docker':
   cmd.run:
-    - runas: root
+    - runas: root #}
 
 users:
   user.present:

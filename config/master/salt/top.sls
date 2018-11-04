@@ -2,3 +2,4 @@ base:
   '*':
     - common
     - users
+    - docker
